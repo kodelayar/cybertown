@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Evidence board illustration">
+  <rect width="600" height="420" rx="30" fill="#eef9f0"/>
+  <rect x="42" y="42" width="516" height="336" rx="24" fill="#f7fbf4" stroke="#dfeccf" stroke-width="4"/>
+  <rect x="108" y="116" width="140" height="60" rx="12" fill="#e3f5ff" stroke="#b9d0da"/>
+  <rect x="286" y="116" width="140" height="60" rx="12" fill="#fff1d5" stroke="#e3c37b"/>
+  <rect x="108" y="206" width="140" height="60" rx="12" fill="#f5e7fa" stroke="#c3b5db"/>
+  <rect x="286" y="206" width="140" height="60" rx="12" fill="#e9f3e7" stroke="#bdd7be"/>
+  <text x="178" y="154" font-size="26" fill="#2f5261" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">Visitor</text>
+  <text x="356" y="154" font-size="26" fill="#4d3e1d" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">Alert</text>
+  <text x="178" y="244" font-size="26" fill="#4d3b57" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">Badge</text>
+  <text x="356" y="244" font-size="26" fill="#275445" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">Report</text>
+  <path d="M232 146 L286 146 M232 236 L286 236" stroke="#80a5bc" stroke-width="4"/>
+  <path d="M232 236 L286 236 M232 146 L286 146" stroke="#80a5bc" stroke-width="4"/>
+  <text x="176" y="327" font-size="28" fill="#2f5c54" font-family="Arial, sans-serif" font-weight="700">Evidence match</text>
+</svg>

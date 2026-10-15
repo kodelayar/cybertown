@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Final incident report illustration">
+  <rect width="600" height="420" rx="30" fill="#f9f3f6"/>
+  <rect x="42" y="42" width="516" height="336" rx="24" fill="#f8fbff" stroke="#d5dce7" stroke-width="4"/>
+  <rect x="110" y="112" width="380" height="190" rx="18" fill="#ffffff" stroke="#c9d5dc" stroke-width="4"/>
+  <circle cx="184" cy="177" r="42" fill="#dfeafc"/>
+  <circle cx="332" cy="177" r="42" fill="#dff4e4"/>
+  <circle cx="480" cy="177" r="42" fill="#f9e7d8"/>
+  <path d="M164 178h40M312 178h40M460 178h40" stroke="#6f8aa7" stroke-width="8" stroke-linecap="round"/>
+  <path d="M168 202c18 12 48 12 66 0M316 202c18 12 48 12 66 0M464 202c18 12 48 12 66 0" stroke="#7f4f66" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <text x="150" y="290" font-size="26" fill="#485a6f" font-family="Arial, sans-serif" font-weight="700">Poster</text>
+  <text x="300" y="290" font-size="26" fill="#375d4e" font-family="Arial, sans-serif" font-weight="700">Badge</text>
+  <text x="450" y="290" font-size="26" fill="#7b5b43" font-family="Arial, sans-serif" font-weight="700">Call</text>
+  <text x="205" y="338" font-size="28" fill="#4b5162" font-family="Arial, sans-serif" font-weight="700">Threat breakdown</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-label="Locked cabinet evidence illustration">
+  <rect width="600" height="420" rx="30" fill="#edf4ff"/>
+  <rect x="38" y="42" width="524" height="336" rx="24" fill="#f4faf8" stroke="#cfe2dd" stroke-width="4"/>
+  <rect x="120" y="110" width="360" height="170" rx="18" fill="#ffffff" stroke="#adc7d3" stroke-width="5"/>
+  <rect x="140" y="150" width="70" height="90" rx="12" fill="#dcecff"/>
+  <rect x="230" y="150" width="70" height="90" rx="12" fill="#fceeca"/>
+  <rect x="320" y="150" width="70" height="90" rx="12" fill="#eaf6e8"/>
+  <rect x="410" y="150" width="50" height="90" rx="12" fill="#f6e7f5"/>
+  <text x="160" y="200" font-size="24" fill="#425d70" font-family="Arial, sans-serif" font-weight="700">1</text>
+  <text x="250" y="200" font-size="24" fill="#425d70" font-family="Arial, sans-serif" font-weight="700">2</text>
+  <text x="340" y="200" font-size="24" fill="#425d70" font-family="Arial, sans-serif" font-weight="700">3</text>
+  <text x="423" y="200" font-size="24" fill="#425d70" font-family="Arial, sans-serif" font-weight="700">4</text>
+  <rect x="180" y="86" width="240" height="44" rx="10" fill="#395b7b"/>
+  <text x="300" y="114" font-size="24" fill="#ecf7ff" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">Cabinet lock</text>
+  <text x="140" y="329" font-size="25" fill="#36595e" font-family="Arial, sans-serif" font-weight="700">Evidence preserved</text>
+</svg>
