@@ -23,7 +23,7 @@ Enter a team name to start. Enter the same team name later in the same browser t
 
 Each room has two optional supporting residents as well as its main mission NPC. Chat about festival preparations or ask for a pointer. These conversations never replace the required mission conversation or solve a puzzle.
 
-Meet six original pixel pets: Mochi the dog, Pip the cat, Coco the rabbit, Bolt the turtle, Pixel the cat, and Kiwi the bird. Pet them, play together, or invite one to follow you between rooms. Pets do not block paths. “Point to my mission” briefly highlights the next person or object without revealing an answer. Send a companion home to choose another pet.
+Meet six original pixel pets: Captain Mochi the dog, Pip the cat, Coco the rabbit, Bolt the turtle, Pixel the cat, and Kiwi the bird. Pet them, play together, or invite one to follow you between rooms. Pets do not block paths. “Point to my mission” briefly highlights the next person or object without revealing an answer. Send a companion home to choose another pet.
 
 Field notes track the 12 residents and six pets you have met. Friends and your chosen companion save with the team across refreshes. Optional interactions do not change scores, hint penalties, room locks, or the running mission timer.
 
