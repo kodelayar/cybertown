@@ -1,5 +1,14 @@
 body .mission-shell{grid-template-columns:235px minmax(0,1fr);min-height:0;border-radius:12px;border:3px solid #3e5a70;box-shadow:0 6px 0 #030c12,0 18px 60px #0006}
 /* Readable evidence cards and wider challenge windows. */
+#challenge a{color:#9ff4c4;text-decoration:underline;text-underline-offset:3px}#challenge a:hover,#challenge a:focus-visible{color:#fff}
+.celebration-banner{position:relative;isolation:isolate;overflow:hidden;display:grid;place-items:center;min-height:112px;padding:22px 70px;margin-bottom:16px;border:2px solid #80dab0;border-radius:9px;background:radial-gradient(circle at 50% 0%,#28644f 0%,#143d43 58%,#102734 100%);text-align:center;box-shadow:inset 0 0 28px #7ef0c126}
+.celebration-banner strong{position:relative;z-index:1;color:#fff2b9;font-size:clamp(20px,3vw,29px);line-height:1.2;text-shadow:0 2px 0 #184335}
+.celebration-balloon{position:absolute;bottom:8px;width:28px;height:37px;border-radius:49% 49% 46% 46%;background:#ffba70;box-shadow:inset -6px -5px 0 #0002;animation:balloon-bob 2.4s ease-in-out infinite alternate}
+.celebration-balloon:before{content:'';position:absolute;left:11px;bottom:-6px;border-left:3px solid transparent;border-right:3px solid transparent;border-top:7px solid currentColor;color:inherit}
+.celebration-balloon:after{content:'';position:absolute;left:14px;top:43px;height:35px;border-left:1px solid #d9e4d6}
+.celebration-balloon:nth-child(1){left:5%;bottom:22px;background:#ffa77a;color:#ffa77a}.celebration-balloon:nth-child(2){left:14%;bottom:2px;background:#f5d76f;color:#f5d76f;animation-delay:-.7s}.celebration-balloon:nth-child(3){left:24%;bottom:28px;background:#81cdeb;color:#81cdeb;animation-delay:-1.2s}.celebration-balloon:nth-child(4){right:24%;bottom:16px;background:#f18ab7;color:#f18ab7;animation-delay:-.4s}.celebration-balloon:nth-child(5){right:14%;bottom:4px;background:#9de4a2;color:#9de4a2;animation-delay:-1.5s}.celebration-balloon:nth-child(6){right:5%;bottom:30px;background:#c4a4f5;color:#c4a4f5;animation-delay:-.9s}
+@keyframes balloon-bob{from{transform:translateY(5px) rotate(-5deg)}to{transform:translateY(-8px) rotate(5deg)}}
+@media(prefers-reduced-motion:reduce){.celebration-balloon{animation:none}}
 .evidence-overlay{padding:16px}
 .dialog.evidence-dialog{width:min(960px,100%);max-height:calc(100dvh - 32px)}
 .dialog.evidence-dialog[data-layout="wide"]{width:min(1320px,100%)}

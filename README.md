@@ -6,7 +6,7 @@ A top-down pixel escape-room adventure for teams. Explore six indoor rooms in a 
 
 Extract the entire ZIP, keeping the `assets` folder beside both HTML pages. Open `index.html` or `cybertown-the-glitch-mystery-v6.html` in a current browser. No installation or internet connection is required. For a static website, upload the same folder structure.
 
-Enter a team name to start. Enter the same team name later in the same browser to resume. The fifteen-minute timer continues while inspecting evidence, solving puzzles, and while the game is closed.
+Enter a team name to start. Enter the same team name later in the same browser to resume an active mission. Typed answers are not saved between visits. The fifteen-minute timer continues while inspecting evidence, solving puzzles, and while the game is closed.
 
 ## Controls
 
@@ -30,19 +30,19 @@ Field notes track the 12 residents and six pets you have met. Friends and your c
 ## Mission route
 
 1. Post Office: investigate a photo and unlock a laptop.
-2. Cipher Study: talk to Ben and use the interactive decoder.
+2. Cipher Study: talk to Ben, enter his keyword as the Vigenere key, and decode the message with the built-in offline decoder.
 3. Cafe: inspect three posters and investigate a suspicious offer.
-4. Storage Room 04: follow a packing-note clue, collect a cabinet key from a toolbox, open the cabinet, then collect and use the Office door key.
+4. Storage Room 04: read the packing note, combine clues from earlier rooms to open the four-digit cabinet, then choose how to handle the suspicious items.
 5. Festival Office: inspect two separate paper records, compare 13 timestamped sign-ins with the official staff badge register, then type the full name of the employee whose badge ID does not match.
 6. Town Hall: respond to a suspicious call and reconstruct the incident.
 
-Talk to each room's resident before investigating. In Storage Room 04, collected keys stay in the evidence bag across refreshes; use each key at its matching lock. The Office requires reading both the reception log and official badge register before typing a suspect's full name. The workstation does not repeat the employee lists or offer name choices, and a late arrival alone is not evidence of a fake badge. Other rooms require examining their main evidence; the cafe also requires inspecting all three posters. Later rooms cannot be selected from the progress display.
+Talk to each room's main resident before solving its challenge at the desk. The Office requires reading both the reception log and official badge register before typing a suspect's full name. The workstation does not repeat the employee lists or offer name choices, and a late arrival alone is not evidence of a fake badge. The cafe requires inspecting all three posters. The Post Office and Cipher Study require examining their main evidence. Later rooms cannot be selected from the progress display.
 
 ## Scores and records
 
-Each cleared room earns 100 points. A room hint deducts 25 points once, even if reopened. Incorrect answers do not deduct points. Using the final exit restores the festival and adds 150 points. Maximum: 750 points.
+Each cleared room earns 100 points and shows a balloon celebration. A room hint deducts 25 points once, even if reopened. Incorrect answers do not deduct points. Using the final exit restores the festival and adds 150 points. Maximum: 750 points.
 
-`scoreboard.html` records team, points, elapsed time, remaining time, rooms, hints, status, and date. It supports team search and CSV export. Records and saved games are local to the browser and device; they do not automatically synchronize across machines. The in-game scoreboard link transfers a snapshot to the records page to support browsers that isolate storage between local HTML files. Export CSV to collect results from separate machines.
+`scoreboard.html` records team, points, elapsed time, remaining time, rooms, hints, status, and date. It supports team search and CSV export. Active mission progress is saved locally without typed answers. Completed and timed-out mission saves are removed while scoreboard records remain. Records do not automatically synchronize across machines. The in-game scoreboard link transfers a snapshot to the records page to support browsers that isolate storage between local HTML files. Export CSV to collect results from separate machines.
 
 ## Files
 
