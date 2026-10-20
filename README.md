@@ -8,7 +8,7 @@ A top-down pixel cybersecurity adventure for teams. The Glitch has used a fake v
 
 Extract the entire ZIP, keeping the `assets` folder beside both HTML pages. Open `index.html` or `cybertown-the-glitch-mystery-v6.html` in a current browser. No installation or internet connection is required. For a static website, upload the same folder structure.
 
-Enter a team name and select **Hear mission briefing**. Aisha and the residents explain the story, all six challenges, and the controls in a voiced, player-paced introduction. Use Next, Back, or Replay voice, and adjust sound and volume within the briefing. The timer stays at 15:00 until you select **Start 15-minute mission** on the last page. You can return to the team screen without starting a run.
+Enter a team name and select **Hear mission briefing**. Aisha and the residents explain the story, all six challenges, and the controls in a voiced, player-paced introduction. Use Next, Back, or Replay voice, and adjust sound and volume within the briefing. Choose **Skip intro & start game** on the team screen or any briefing page to begin immediately. Otherwise, the timer stays at 15:00 until you select **Start 15-minute mission** on the last page. You can return to the team screen without starting a run.
 
 Enter the same team name later in the same browser to resume an active mission directly. Typed answers are not saved between visits. The fifteen-minute timer pauses while a main NPC's challenge briefing or completion instructions are open, and resumes when you close that window or select Start investigating. The pause lasts as long as you need to read, even after the voice finishes. The panel shows **Paused while you read**.
 
@@ -48,7 +48,7 @@ The main NPC introduces each room before you solve its desk challenge. Completin
 
 ## Scores and records
 
-Each cleared room earns 15 main points and shows a balloon celebration. A room hint deducts 3 points once. Incorrect answers do not deduct points. After the sixth room, the optional Bonus Room offers five security mistakes worth 2 points each. Final Score = min(100, Main Challenge Score + Bonus Points). A perfect main run scores 90; the bonus can raise it to 100. Skipping the bonus preserves the main victory.
+Each cleared room earns 15 main points and shows a balloon celebration. Each room hint deducts 25 points once; reopening the same hint is free. Scores can go below zero. Using all six hints gives a main score of −60 after clearing all rooms, or −50 with all bonus points. Incorrect answers do not deduct points. After the sixth room, the optional Bonus Room offers five security mistakes worth 2 points each. Final Score = min(100, Main Challenge Score + Bonus Points). A perfect main run scores 90; the bonus can raise it to 100. Skipping the bonus preserves the main victory.
 
 `scoreboard.html` records team, points, elapsed time, remaining time, rooms, hints, status, and date. It supports team search and CSV export. Active mission progress is saved locally without typed answers. Completed and timed-out mission saves are removed while scoreboard records remain. Bonus findings update the saved scoreboard result. Records do not automatically synchronize across machines. The in-game scoreboard link transfers a snapshot to the records page to support browsers that isolate storage between local HTML files. Export CSV to collect results from separate machines.
 
