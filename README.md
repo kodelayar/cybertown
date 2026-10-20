@@ -1,5 +1,7 @@
 # CyberTown: The Glitch Mystery
 
+**[Play CyberTown online — Kodelayar GitHub Pages](https://kodelayar.github.io/cybertown/)**
+
 A top-down pixel cybersecurity adventure for teams. The Glitch has used a fake voucher, counterfeit badge, and malicious USB to compromise Town Hall. Follow the evidence through six rooms, help the residents, contain the infected workstation, and restore Cybertown. Each room has inspectable clues, a safety note, and a sealed north exit.
 
 ## Start playing
