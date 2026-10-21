@@ -25,7 +25,7 @@ Exploration, evidence inspection, optional chats, and puzzles use mission time. 
 - Close dialogue: Escape or Close.
 - Evidence bag: collected story items. Field notes: discovered safety tips.
 
-Both sequence puzzles support dragging cards into numbered slots, including touch dragging from the grip. You can also tap a card and then a slot, or use Tab and Enter. Cards can be moved, swapped, or returned to the bank. SOC plans save with active missions; selecting a different host keeps your draft plan, and no actions execute until both the host and sequence are correct.
+Both sequence puzzles support dragging cards into numbered slots, including touch dragging from the grip. You can also tap a card and then a slot, or use Tab and Enter. Cards can be moved, swapped, or returned to the bank. The workstation question comes first: only a correct workstation choice reveals the SOC response puzzle. Wrong choices show feedback and keep the response question hidden. SOC plans save with active missions, and no actions execute until the response sequence is correct.
 
 ## Mission NPCs and pets
 
