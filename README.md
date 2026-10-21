@@ -25,6 +25,8 @@ Exploration, evidence inspection, optional chats, and puzzles use mission time. 
 - Close dialogue: Escape or Close.
 - Evidence bag: collected story items. Field notes: discovered safety tips.
 
+Both sequence puzzles support dragging cards into numbered slots, including touch dragging from the grip. You can also tap a card and then a slot, or use Tab and Enter. Cards can be moved, swapped, or returned to the bank. SOC plans save with active missions; selecting a different host keeps your draft plan, and no actions execute until both the host and sequence are correct.
+
 ## Mission NPCs and pets
 
 Only the six main mission NPCs have voices: Maya, Ben, Lina, Mr. Tan, Sam, and Aisha. Supporting residents can be approached for optional text-only chats and advice. They do not block paths. Each main NPC welcomes you with the challenge number, task, cleared-challenge count, and score. The welcome panel shows live remaining time and progress.
@@ -42,15 +44,15 @@ Field notes track the 12 supporting residents and six pets you have met. Friends
 3. Cafe: inspect three posters and investigate a suspicious offer.
 4. Storage Room 04: read the packing note, combine clues from earlier rooms to open the four-digit cabinet, then choose how to handle the suspicious items.
 5. Festival Office: inspect two separate paper records, compare 13 timestamped sign-ins with the official staff badge register, then type the full name of the employee whose badge ID does not match.
-6. Town Hall: inspect three workstations, identify the infected host, isolate it, preserve evidence, and alert the response team.
+6. Town Hall: inspect three workstations, choose the infected host, then drag three safe SOC response cards into the correct sequence. Unsafe distractor cards stay in the bank. Check and execute the plan before restoring town systems.
 
 The main NPC introduces each room before you solve its desk challenge. Completing a challenge immediately displays and voices the result and the next step, including how to use the north exit. Closing this success window keeps its instructions playing; **Replay instructions** repeats them. Unlocking a room plays a latch sound, and walking through its exit plays a distinct opening sound before the next NPC speaks. The Office requires reading both the reception log and official badge register before typing a suspect's full name. The workstation does not repeat the employee lists or offer name choices, and a late arrival alone is not evidence of a fake badge. The cafe requires inspecting all three posters. The Post Office and Cipher Study require examining their main evidence. Later rooms cannot be selected from the progress display.
 
 ## Scores and records
 
-Each cleared room earns 15 main points and shows a balloon celebration. Each room hint deducts 25 points once; reopening the same hint is free. Scores can go below zero. Using all six hints gives a main score of −60 after clearing all rooms, or −50 with all bonus points. Incorrect answers do not deduct points. After the sixth room, the optional Bonus Room offers five security mistakes worth 2 points each. Final Score = min(100, Main Challenge Score + Bonus Points). A perfect main run scores 90; the bonus can raise it to 100. Skipping the bonus preserves the main victory.
+Each cleared room earns 15 main points and shows a balloon celebration. Each room hint deducts 25 points once; reopening the same hint is free. Scores can go below zero. Using all six hints gives a main score of −60 after clearing all rooms, or −50 with all bonus points. Incorrect answers do not deduct points. After the sixth room, the optional Bonus Room asks you to arrange six shuffled story cards in investigation order: laptop, cipher, fake voucher, suspicious delivery, badge mismatch, and SOC containment. A complete correct timeline awards 10 points once and reveals a recap connecting the evidence and security lessons. Incomplete or incorrect timelines can be retried freely; the timer has stopped. Final Score = min(100, Main Challenge Score + Bonus Points). A perfect main run scores 90; the bonus can raise it to 100. Skipping the bonus preserves the main victory.
 
-`scoreboard.html` records team, points, elapsed time, remaining time, rooms, hints, status, and date. It supports team search and CSV export. Active mission progress is saved locally without typed answers. Completed and timed-out mission saves are removed while scoreboard records remain. Bonus findings update the saved scoreboard result. Records do not automatically synchronize across machines. The in-game scoreboard link transfers a snapshot to the records page to support browsers that isolate storage between local HTML files. Export CSV to collect results from separate machines.
+`scoreboard.html` records team, points, elapsed time, remaining time, rooms, hints, status, and date. It supports team search and CSV export. Active mission progress is saved locally without typed answers. Completed and timed-out mission saves are removed while scoreboard records remain. Completing the bonus timeline updates the saved scoreboard result. Records do not automatically synchronize across machines. The in-game scoreboard link transfers a snapshot to the records page to support browsers that isolate storage between local HTML files. Export CSV to collect results from separate machines.
 
 ## Files
 
@@ -61,6 +63,7 @@ Each cleared room earns 15 main points and shows a balloon celebration. Each roo
 - `assets/room-game.css` and `assets/adventure.css`: responsive game, dialogue, console, and bonus-room presentation.
 - `assets/adventure-audio.js`: browser speech synthesis with synchronized text captions, background music, and procedural action sound effects. Use the Audio on/off and volume controls in the game header. Available spoken voices depend on the browser and operating system.
 - `assets/subway-surfers.mp3`: audio from the [Myinstants embed supplied by the user](https://www.myinstants.com/en/instant/subway-surfers-48885/), uploaded there by supertoine. The track loops locally at 0.8× speed and 5.5% of the selected volume; during speech it drops to 1.1%. NPC voices retain the selected volume. Music pauses when the tab is hidden, audio is muted, or the mission ends.
+- `assets/sequence-puzzle.js` and `assets/sequence-puzzle.css`: shared drag-and-drop, touch, and keyboard ordering puzzles for the SOC response and bonus incident timeline.
 - `assets/mission-briefing.js` and `assets/mission-briefing.css`: untimed opening conversation, challenge introductions, and mission instructions. Narration uses a slower, neutral voice and lowers other audio while speaking.
 - `assets/challenge-1.png` through `assets/challenge-5.png`: existing photographic evidence.
 - `assets/challenge-6.svg`: new Town Hall workstation illustration.
